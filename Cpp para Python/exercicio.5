@@ -1,0 +1,51 @@
+C++:
+/*
+    Autor: Raviel e Stephanie
+    Data: Junho/2026
+    Descrição: Lê um número de 1 a 10 e exibe sua tabuada, validando a entrada.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int numero;
+    int contador = 1;
+
+    cout << "Digite um numero de 1 a 10: ";
+    cin >> numero;
+
+    while (numero < 1 || numero > 10)
+    {
+        cout << "Valor invalido. Digite novamente: ";
+        cin >> numero;
+    }
+
+    while (contador <= 10)
+    {
+        cout << numero << " x " << contador << " = " << numero * contador << endl;
+        contador++;
+    }
+
+    return 0;
+}
+
+
+
+Python:
+"""
+    Autor: Raviel e Stephanie
+    Data: Junho/2026
+    Descrição: Lê um número de 1 a 10 e exibe sua tabuada, validando a entrada.
+"""
+
+numero = int(input("Digite um numero de 1 a 10: "))
+contador = 1
+
+while numero < 1 or numero > 10:
+    numero = int(input("Valor invalido. Digite novamente: "))
+
+while contador <= 10:
+    print(numero, "x", contador, "=", numero * contador)
+    contador += 1
