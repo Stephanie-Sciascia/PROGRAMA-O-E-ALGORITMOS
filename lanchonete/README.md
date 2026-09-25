@@ -39,15 +39,15 @@ O código possui funções para cada parte do sistema, como:
 - create_backup() — cria uma cópia dos dados.
 
 Menu do sistema
-1 - Cadastrar produto
-2 - Listar produtos
-3 - Fazer pedido
-4 - Ver pedidos realizados
-5 - Produto mais vendido
-6 - Total vendido
-7 - Exportar relatório
-8 - Criar backup
-9 - Sair
+- 1 - Cadastrar produto
+- 2 - Listar produtos
+- 3 - Fazer pedido
+- 4 - Ver pedidos realizados
+- 5 - Produto mais vendido
+- 6 - Total vendido
+- 7 - Exportar relatório
+- 8 - Criar backup
+- 9 - Sair
 
 ## Conclusão
 
